@@ -1,5 +1,5 @@
 # FILE NAME - coin_toss.py
-# NAME: 
+# NAME: Hayden
 # DATE: 
 # BRIEF DESCRIPTION:  
 # 1. Make sure you fill out the comments above
@@ -9,7 +9,12 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+import random
 
+print("===== Coin Flipper =====")
+
+flip = random.choice(["Heads", "Tails"])
+print(flip)
 
 
 
